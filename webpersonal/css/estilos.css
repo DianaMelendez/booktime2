@@ -1,0 +1,107 @@
+.jumbotron {		
+	background-color: #C70039;
+	color: #ffffff;
+	padding: 100px 25px;
+	text-align: center;
+	font-family: Verdana;
+}	
+.container-fluid  {	
+	padding: 40px 50px;
+}
+.bg-grey {
+	background-color: #DCDCDC;
+}	
+#autores .panel {
+	border: 1px solid #900C3F;
+}		
+#autores .panel:hover {
+	box-shadow: 3px 7px 30px #C70039;
+}
+#autores .equipo .panel-heading {
+    color: #fff;
+    background-color: #900C3F;
+    padding: 25px;
+	font-family: verdana;
+    border-bottom: 1px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#autores .panel-body {
+	font-family: verdana;
+	font-size: 14px; 
+}
+#datos .panel-body {
+	background-color: #EFEFEF;
+	font-family: verdana;
+	font-size: 14px;
+	color: #000000;
+	height: 170px;
+}
+.icono {
+	color: #C70039;
+	font-size: 20px;
+}
+.menu {
+    background-color: #900C3F;
+    padding: 5px 0px 14px;
+    border: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-family: verdana;
+}
+.menu .navbar-nav li a, .menu .navbar-brand {
+    color: #fff;
+}
+.menu .navbar-nav li a:hover, .menu .navbar-nav li.active a {
+    color: #581845;
+    background-color: #fff;
+}
+.menu .navbar-default .menu .navbar-toggle {
+    border-color: transparent;
+    color: #fff;
+}
+.navbar-brand {
+	padding: 0px 0px;
+}
+body {
+	font: 15px verdana;
+	line-height: 1.5;
+}
+h2 {
+	font-size: 24px;
+	color: #303030;
+	margin-bottom: 30px;
+}
+h4 {
+	font-size: 16px;
+	color: #303030;
+	margin-bottom: 30px;
+}
+footer .glyphicon {
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: #C70039;
+}
+@media screen and (min-width:320px) {
+	img {
+		max-width:100%;
+	}
+}
+@media screen and (min-width:768px) {
+	img {
+		max-width:150px;
+	}
+}
+@media screen and (min-width:980px) {
+	img {
+		max-width:225px;
+	}
+}
+@media screen and (min-width:1200px) {
+	img {
+		max-width:300px;
+	}
+}
